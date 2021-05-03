@@ -1,0 +1,10 @@
+namespace firsttestspace
+{
+    class firsttestclass
+    {
+        
+    }
+
+
+
+}
