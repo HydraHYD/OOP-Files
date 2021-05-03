@@ -5,6 +5,7 @@ class Pokemon():
         self.type2 = type2
         self.nextstage = nextstage
         self.stats = stats
+        self.wild = True
     
     def evolve(self, newPokemon):
         if self.nextstage == newPokemon.name:

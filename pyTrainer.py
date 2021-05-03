@@ -13,7 +13,8 @@ class Trainer():
         self.money += amount
 
     def newPokemon(self, pokemon):
-        self.pokemon.append(pokemon)
+        if pokemon.wild = False:
+            self.pokemon.append(pokemon)
 
     def setTeam(self, p1, p2, p3, p4, p5, p6):
         p1 = self.team[0]
@@ -29,7 +30,7 @@ class Trainer():
     def newItem(self, item):
         self.inventory.append[item]
 
-    def useItem(self, pos):
-        self.inventory[pos].useItem()
+    def useItem(self, pos, pokemon):
+        self.inventory[pos].useItem(pokemon)
         self.inventory.pop(pos)
 

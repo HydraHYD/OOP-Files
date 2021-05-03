@@ -1,5 +1,6 @@
 from pyPokemon import *
 from pyTrainer import *
+from pyItem import *
 import random as r
 
 Ponyta = Pokemon('Ponyta', 'Fire', None, 'Rapidash', [2,20,200,2000,2000,2000])
